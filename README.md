@@ -1,69 +1,25 @@
-# Welcome to your Lovable project
+# 📊 Excel to Graph Visualizer – Real-Time Data Visualization from Excel
 
-## Project info
+Welcome to the **Excel to Graph Visualizer** — a smart web app that lets users upload Excel files and instantly turns their data into beautiful, interactive charts.
 
-**URL**: https://lovable.dev/projects/c74c5e7f-7b40-4c38-a49c-711641865ad5
+Perfect for students, professionals, or anyone who needs quick visual insights without touching Excel formulas!
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Key Features
 
-**Use Lovable**
+- 📁 Upload `.xlsx` or `.csv` files directly from your device
+- 📊 Auto-generate charts from tabular data (bar, line, pie, etc.)
+- 🔍 Supports dynamic chart selection based on column types
+- 🔁 Update charts instantly when new file is uploaded
+- 💡 Responsive layout — works on desktop, tablet, mobile
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c74c5e7f-7b40-4c38-a49c-711641865ad5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧰 Tech Stack
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c74c5e7f-7b40-4c38-a49c-711641865ad5) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla or React)
+- **Libraries**:
+  - [**SheetJS (xlsx)**](https://github.com/SheetJS/sheetjs) – to read Excel files
+  - [**Chart.js**](https://www.chartjs.org/) – for interactive charts
+  
